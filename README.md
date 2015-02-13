@@ -20,9 +20,9 @@ var | type | details
  | | `templateUrl` - `string` - Path to template
  | | `functionToRun` - `function` - Function to run when template has loaded. May be omitted
 
- #####`otherwise(config)`
- var | type | details
- --- | --- | ---
- `config` | object | An object with config details
- | | `redirectTo` - `string` - Where to redirect the user when no `when`-case matches. Defaults to `#` if omitted
- | | `templateUrl` - `string` - Path to template
+#####`otherwise(config)`
+var | type | details
+--- | --- | ---
+`config` | object | An object with config details
+| | `redirectTo` - `string` - Where to redirect the user when no `when`-case matches. Defaults to `#` if omitted
+| | `templateUrl` - `string` - Path to template
