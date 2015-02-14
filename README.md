@@ -24,5 +24,5 @@ var | type | details
 var | type | details
 --- | --- | ---
 `config` | object | An object with config details
-| | `redirectTo` - `string` - Where to redirect the user when no `when`-case matches. Defaults to `#` if omitted
-| | `templateUrl` - `string` - Path to template
+ | | `redirectTo` - `string` - Where to redirect the user when no `when`-case matches. Defaults to `#` if omitted
+ | | `templateUrl` - `string` - Path to template
